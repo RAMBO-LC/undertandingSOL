@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"working project/contract/Message.sol": "Message"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"working project/contract/Message.sol": {
+			"keccak256": "0xebdb0f87c8f94f742667d32008a8d8ed7280f27e88ced70e17f90e1ccbd11a0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2ca4701f445244c5fcfcd44ba936a1c306f64dd8c5cab19538615bd2721a1624",
+				"dweb:/ipfs/QmSxADn1rVoVHaM2JdkXS59cPYSr1qMtjFNm5GV4UGSS4e"
+			]
+		}
+	},
+	"version": 1
+}

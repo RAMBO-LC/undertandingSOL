@@ -1,0 +1,18 @@
+{
+  "contract/Message.sol": {
+    "__sources__": {
+      "contract/Message.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Message {\r\n\r\n    string public message;\r\n\r\n    function setMessage(string memory _message) public  {\r\n        message = _message;\r\n    }\r\n\r\n    function getMessage() public view returns (string memory) {\r\n        return message;\r\n    }\r\n}",
+        "file": "contract/Message.sol"
+      }
+    }
+  },
+  "artifacts/contract/Message.sol": {
+    "__sources__": {
+      "artifacts/contract/Message.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract Message {\r\n\r\n    string public message;\r\n\r\n    function setMessage(string memory _message) public  {\r\n        message = _message;\r\n    }\r\n\r\n    function getMessage() public view returns (string memory) {\r\n        return message;\r\n    }\r\n}",
+        "file": "artifacts/contract/Message.sol"
+      }
+    }
+  }
+}
